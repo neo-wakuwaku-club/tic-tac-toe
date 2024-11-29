@@ -1,5 +1,5 @@
-import { Square } from '../component/square';
+import { Game } from '../component/game';
 
 export const App = () => {
-  return <Square />;
+  return <Game />;
 };
