@@ -9,6 +9,7 @@ const config = defineConfig({
   plugins: [react()],
   publicDir: '../public/',
   root: './src/',
+  base: process.env['BASE_PATH'] || '/',
 });
 
 export default config;
